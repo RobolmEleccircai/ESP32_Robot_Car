@@ -2,7 +2,7 @@
 # 基于 ESP32 的两轮自平衡小车俯仰控制系统
 
 ## 目录
-- [English README](ESP32_Balancing_Car_README_EN.md)
+- [English README](README.md)
 
 ## 中文 README
 
