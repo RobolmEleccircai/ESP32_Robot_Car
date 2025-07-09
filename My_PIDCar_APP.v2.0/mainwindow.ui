@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget_7" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);</string>
+           </property>
+           <property name="title">
+            <string>可用设备</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,0">
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="listWidget">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+font: 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QPushButton" name="pushButton_openBLE">
+                <property name="text">
+                 <string>打开蓝牙</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_closeBLE">
+                <property name="text">
+                 <string>断开连接</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_upDateBLE">
+                <property name="text">
+                 <string>刷新设备</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);</string>
+           </property>
+           <property name="title">
+            <string>接受区</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="8">
+            <item>
+             <widget class="QTextBrowser" name="textBrowser_receive">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+font: 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_6" native="true">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QPushButton" name="pushButton_kd_raise">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>kd+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_kd_reduce">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>kd-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_fornt">
+                <property name="text">
+                 <string>前</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QPushButton" name="pushButton_kp_raise">
+                <property name="text">
+                 <string>kp+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_kp_reduce">
+                <property name="text">
+                 <string>kp-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_stop">
+                <property name="text">
+                 <string>停车</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QPushButton" name="pushButton_ki_raise">
+                <property name="text">
+                 <string>ki+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_ki_reduce">
+                <property name="text">
+                 <string>ki-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_back">
+                <property name="text">
+                 <string>后</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="3" column="0">
+             <widget class="QPushButton" name="pushButton_clearReceive">
+              <property name="text">
+               <string>清屏</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>574</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
