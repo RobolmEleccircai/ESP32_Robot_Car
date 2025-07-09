@@ -2,7 +2,7 @@
 # ESP32-Based Two-Wheel Self-Balancing Car Pitch Control System
 
 ## Table of Contents
-- [中文 README](ESP32_Balancing_Car_README_CN.md)
+- [中文 README](README_CN.md)
 
 ## English README
 
